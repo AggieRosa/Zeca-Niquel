@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* HEADER */
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+#icone-header-direita {
+  transform: rotate(180deg);
+  transform: rotateY(180deg);
+}
+header {
+  background-color: yellow;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+header #container-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+header h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+}
+#title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* HEADER */
+
+/* MAIN */
+.audio{
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+}
+main {
+  padding-top: 10px;
+  background-image: url(assets/depositphotos_79734178-stock-photo-bar-interior-with-wooden-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+td {
+  text-align: center;
+  height: 100%;
+}
+td img {
+  width: 80%;
+  height: 100px;
+  margin: 7px 0px 3px 7px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(26, 23, 23, 0.705);
+  width: 100%;
+}
+.bemVindo {
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px 10px 5px 5px;
+  color: #ff0;
+  text-shadow: 0px 0px 7px #ff0;
+  background-color: rgba(26, 23, 23, 0.705);
+  /* background-image: url("assets/istockphoto-155429750-612x612.jpg");
+  background-size: cover; */
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 15px; */
+}
+#caixaBotao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+input {
+  background-image: url("https://acegif.com/wp-content/gif/beer-10.gif");
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+  width: 85px;
+  height: 25px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.658);
+}
+.resultado {
+  width: 90%;
+  height: 50px;
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16x;
+  font-weight: bolder;
+  color: rgb(253, 246, 222);
+  text-shadow: 0px 0px 7px #ff0;
+}
+table {
+  /* background-image: url("assets/istockphoto-155429750-612x612.jpg");
+  background-size: cover; */
+  background-color: rgba(26, 23, 23, 0.705);
+  box-shadow: 0px 0px 4px #ff0;
+  width: 100%;
+  border-radius: 5px 5px 10px 10px;
+}
+/* MAIN */
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: rgba(26, 23, 23, 0.705);
+  color: #fff;
+  padding-top: 10px;
+}
+.regrasRole {
+  padding: 10px 0px;
+  list-style: decimal;
+  column-count: 1;
+  column-gap: 0px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.regrasJogo {
+  column-count: 1;
+  padding: 10px 0px;
+}
+.regras li {
+  width: 120px;
+  margin: 0px;
+}
+li {
+  padding: 5px;
+}
+.regrasJogo li {
+  font-size: 14px;
+}
+.regrasRole li {
+  padding-bottom: 10px;
+}
+#jogo,
+#role {
+  border: solid 1px #ff0;
+  box-shadow: 4px 13px 8px #ff0;
+  padding: 5px;
+  width: 40%;
+}
+/* FOOTER */
+
+/*  */
+
+@media (min-width: 768px) {
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  td img {
+    width: 90%;
+    height: 95%;
+    border-radius: 10px;
+    margin:0;
+  }
+  .item{
+    width: 180px;
+    height: 250px;
+    margin: 5px;
+  }
+  tr{
+    border-radius: 15px;
+    border: 8px ridge white;
+  }
+  td{
+    height: 100%;
+    margin: 0;
+    width: 33%; 
+    background-color: white;
+  }
+  .container{
+    width: 100%;
+  }
+  tbody{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    border: 8px double rgb(92, 43, 8);
+    border-radius: 15px;
+    align-items: center;
+  }
+  table{
+    width: 60%;
+    height: 80%;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.712);
+  }
+  .resultado {
+    width: 85%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .bemVindo {
+    width: 50%;
+    font-size: 40px;
+    height: 50px;
+    margin: 0;
+    margin-top: 50px;
+    border: 4px double saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultado span {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .regrasRole {
+    font-size: 16px;
+  }
+  .regrasJogo li {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  #jogo,
+  #role {
+    padding: 5px 5px 5px 20px;
+  }
+  input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.671);
+    font-weight: bolder;    
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+}
+  input:active{
+    cursor:pointer;
+    border: 4px groove rgb(250, 221, 60);
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+  }
+  #role , #jogo{
+    width: 45%;  
+    box-shadow: none;
+    border-radius: 5px;
+    border: 4px ridge saddlebrown;
+    padding:10px;
+  }
+  .regrasRole{
+    column-count: 2;
+  }
+  li{
+    font-size: 14px;
+  }
+  .audio{
+    width: 200px;
+  }
+
+}
+
+
+/*Animações*/
+
+#botao:hover {
+  animation-duration: 1s;
+  animation-name: vupt;
+}
+
+@keyframes vupt {
+  0% {
+    transform: scale(0.95);
+  }
+
+  50%{
+    transform: scale(1);
+  }
+  
+  70% {
+    transform: scale(1.2);
+  }
+  
+  100% {
+    transform: scale(0.95);
+  }
+
+}
+
+.resultado:hover {
+  animation-name: resultado;
+  animation-duration: 1s;
+}
+@keyframes resultado {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);}
+  40% {
+    transform: translateY(-30px);}
+  60% {
+    transform: translateY(-15px);}
+}
+
+ 
+#titulo {
+    color: yellow;
+    animation: flicker 3s linear infinite;
+    color: rgb(255, 255, 255);
+  }
+
+@keyframes flicker {
+  0%, 20%, 22%, 63%, 64%, 66%, 70%, 100% {
+    opacity: 1;
+    text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+  }
+  20%, 22%, 63%, 64%, 65%, 68% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
+
+

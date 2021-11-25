@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cacaniquel.css">
+    <link rel="icon" href="assets/1637690974635.png">
+    <title>Zeca-Níquel</title>
+</head>
+<body>
+  <header>
+    <div id="container-header">
+        <img src="assets/1637690974635.png" alt="ICONE-ZECA-PAGODINHO-ESQ">
+        <div id="title">
+            <h1>Jogatina do Zeca Pagodinho</h1>
+        </div>
+        <img id="icone-header-direita" src="assets/1637690974635.png" alt="ICONE-ZECA-PAGODINHO-DIR">
+    </div>
+  </header>
+  
+  <main>
+    <audio class='audio'src="assets/Zeca Pagodinho - Deixa A Vida Me Levar.mp3" controls></audio>
+    <div class='bemVindo'>
+      <h1  id='titulo'>Bem-vindo ao Zeca-Níquel</h1>
+        <audio id="audio">
+          <source src="assets/Quack Sound Effect.mp3"/>
+        </audio>
+    </div>
+    
+
+    <div class="container">
+        <table>
+           <tr>
+              <td><img class='item'id= "esquerda" src = "assets/zeca-pagodinho.jpg" name = "left"></td>
+              <td><img class='item'id= "meio" src = "assets/zeca-pagodinho.jpg" name = "center"></td>
+              <td><img class='item'id= "direita" src = "assets/zeca-pagodinho.jpg" name = "right"></td>
+           </tr>
+        </table> 
+        <div id=caixaBotao>
+          <input id='botao'type="button" value="BORA" onclick=" slot();">
+          <audio id="somBotao">
+            <source src="assets/Cash Register (Kaching) - Sound Effect (HD).mp3"/>
+          </audio>
+        </div>  
+        <div class="resultado">
+             <span id="all">
+             </span>
+        </div>    
+         
+         
+    </div>
+  </main>
+    <footer>
+      <div id='role'>
+        <h2>REGRAS DO ROLÊ</h2>
+        <ul class='regrasRole'>
+          <li>Não morrer</li>
+          <li>Não ser preso</li>
+          <li>Não se apaixonar</li>
+          <li>Não dar pt</li>
+          <li>Não dormir</li>
+          <li>Ficar loucasso</li>
+        </ul>
+        </div>
+        <div id='jogo'>
+        <h2>REGRAS DO JOGO</h2>
+        <ul class='regrasJogo'>
+          <li>Pra começar a jogar, clique no botão "BORA'!</li>
+          <li>Com 2 imagens iguais, você ganha o segundo prêmio</li>
+          <li>Com 3 imagens iguais, você ganha o primeiro prêmio!</li>
+          <li>Com nenhuma imagem igual, você ganha um prêmio de consolação</li>
+        </ul>
+      </div>
+    </footer>
+
+
+
+    <script src="cacaniquel.js"></script>
+</body>
+</html>
