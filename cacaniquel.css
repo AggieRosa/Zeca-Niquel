@@ -49,6 +49,7 @@ header h1 {
   justify-content: center;
   width: 100px;
   height: 20px;
+  margin-top: 30px;
 }
 main {
   display: flex;
