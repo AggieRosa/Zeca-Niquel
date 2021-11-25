@@ -45,15 +45,17 @@ function slot() {
 
         //condições de vitótia
         if (
-          esquerdaFinal == meioFinal ||
-          meioFinal == direitaFinal ||
-          esquerdaFinal == direitaFinal
+          esquerdaFinal === meioFinal ||
+          meioFinal === direitaFinal ||
+          esquerdaFinal === direitaFinal
         ) {
           document.getElementById("all").innerHTML =
             "Eita, cê quase ganhou! Toma uma coxinha com catupiry";
         } else if (
-          esquerdaFinal == meioFinal &&
-          direitaFinal == esquerdaFinal
+          esquerdaFinal === meioFinal &&
+          direitaFinal === esquerdaFinal ||
+          meioFinal === direitaFinal &&
+          esquerdaFinal === direitaFinal
         ) {
           document.getElementById("all").innerHTML =
             "Oloco, tu ganhou maluco! Uma cervejinha gelada pra você!";
